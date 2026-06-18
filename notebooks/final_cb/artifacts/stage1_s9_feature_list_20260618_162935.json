@@ -1,0 +1,457 @@
+{
+  "n_features": 91,
+  "n_features_full": 134,
+  "source": "keep-w12 + feature_engineering_experiment E4_Full (LR-reduced)",
+  "reduction": {
+    "method": "LOWO fold-averaged |LR coef|, C=10, wave 19 excluded",
+    "coverage_target": 0.95,
+    "coverage_achieved": 0.9519,
+    "lr_C": 10.0
+  },
+  "excluded_redundant": [
+    "gender_B"
+  ],
+  "engineered_columns": [
+    "pref_match_A_to_B",
+    "pref_match_B_to_A",
+    "pref_match_mutual",
+    "diff_sports",
+    "diff_tvsports",
+    "diff_exercise",
+    "diff_dining",
+    "diff_museums",
+    "diff_art",
+    "diff_hiking",
+    "diff_gaming",
+    "diff_clubbing",
+    "diff_reading",
+    "diff_tv",
+    "diff_theater",
+    "diff_movies",
+    "diff_concerts",
+    "diff_music",
+    "diff_shopping",
+    "diff_yoga",
+    "interest_cosine",
+    "diff_age",
+    "diff_imprace",
+    "diff_imprelig",
+    "diff_go_out",
+    "diff_date",
+    "same_race",
+    "same_field",
+    "same_career",
+    "same_goal",
+    "pref_entropy_A",
+    "pref_entropy_B",
+    "diff_pref_entropy",
+    "aspiration_gap_attr_A",
+    "aspiration_gap_sinc_A",
+    "aspiration_gap_intel_A",
+    "aspiration_gap_fun_A",
+    "aspiration_gap_amb_A",
+    "aspiration_gap_attr_B",
+    "aspiration_gap_sinc_B",
+    "aspiration_gap_intel_B",
+    "aspiration_gap_fun_B",
+    "aspiration_gap_amb_B",
+    "exphappy_diff",
+    "exphappy_sum"
+  ],
+  "engineered_in_reduced": [
+    "aspiration_gap_amb_B",
+    "aspiration_gap_attr_A",
+    "aspiration_gap_amb_A",
+    "pref_match_A_to_B",
+    "pref_match_mutual",
+    "exphappy_diff",
+    "aspiration_gap_fun_B",
+    "pref_match_B_to_A",
+    "exphappy_sum",
+    "aspiration_gap_intel_A",
+    "aspiration_gap_sinc_A",
+    "aspiration_gap_intel_B",
+    "aspiration_gap_attr_B",
+    "interest_cosine",
+    "aspiration_gap_fun_A",
+    "aspiration_gap_sinc_B",
+    "same_field",
+    "same_race",
+    "diff_go_out",
+    "diff_art",
+    "diff_tvsports",
+    "diff_music",
+    "diff_age",
+    "diff_yoga",
+    "diff_concerts",
+    "diff_reading",
+    "pref_entropy_B",
+    "diff_pref_entropy"
+  ],
+  "features": [
+    {
+      "name": "attr2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "aspiration_gap_amb_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "amb2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "aspiration_gap_attr_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "aspiration_gap_amb_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "amb2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "amb3_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "pref_match_A_to_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "pref_match_mutual",
+      "theme": "Engineered"
+    },
+    {
+      "name": "exphappy_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "exphappy_diff",
+      "theme": "Engineered"
+    },
+    {
+      "name": "aspiration_gap_fun_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "exphappy_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "pref_match_B_to_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "shar2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "gender_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "attr1_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "exphappy_sum",
+      "theme": "Engineered"
+    },
+    {
+      "name": "intel2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "amb3_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "aspiration_gap_intel_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "aspiration_gap_sinc_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "attr2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "sinc2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "attr3_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "sinc1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "fun2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "shar1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "aspiration_gap_intel_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "intel3_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "aspiration_gap_attr_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "intel2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "movies_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "fun2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "interest_cosine",
+      "theme": "Engineered"
+    },
+    {
+      "name": "sports_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "intel3_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "yoga_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "shar2_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "attr1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "aspiration_gap_fun_A",
+      "theme": "Engineered"
+    },
+    {
+      "name": "imprace_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "go_out_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "sinc2_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "sports_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "theater_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "shar1_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "aspiration_gap_sinc_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "race_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "go_out_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "date_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "same_field",
+      "theme": "Engineered"
+    },
+    {
+      "name": "imprelig_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "clubbing_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "age_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "career_c_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "amb1_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "same_race",
+      "theme": "Engineered"
+    },
+    {
+      "name": "fun1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "intel1_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "diff_go_out",
+      "theme": "Engineered"
+    },
+    {
+      "name": "dining_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "museums_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "tvsports_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "diff_art",
+      "theme": "Engineered"
+    },
+    {
+      "name": "diff_tvsports",
+      "theme": "Engineered"
+    },
+    {
+      "name": "intel1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "diff_music",
+      "theme": "Engineered"
+    },
+    {
+      "name": "date_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "theater_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "diff_age",
+      "theme": "Engineered"
+    },
+    {
+      "name": "tv_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "art_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "reading_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "sinc3_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "amb1_1_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "fun1_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "fun3_1_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "tvsports_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "diff_yoga",
+      "theme": "Engineered"
+    },
+    {
+      "name": "concerts_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "diff_concerts",
+      "theme": "Engineered"
+    },
+    {
+      "name": "clubbing_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "hiking_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "gaming_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "exercise_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "diff_reading",
+      "theme": "Engineered"
+    },
+    {
+      "name": "pref_entropy_B",
+      "theme": "Engineered"
+    },
+    {
+      "name": "exercise_A",
+      "theme": "Profile A"
+    },
+    {
+      "name": "museums_B",
+      "theme": "Profile B"
+    },
+    {
+      "name": "diff_pref_entropy",
+      "theme": "Engineered"
+    }
+  ]
+}
