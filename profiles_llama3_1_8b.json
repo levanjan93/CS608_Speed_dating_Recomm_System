@@ -1,0 +1,339 @@
+{
+  "1": {
+    "user_id": 1,
+    "demographics": {
+      "age": 21.0,
+      "gender": "Female",
+      "race": "Asian / Pacific Islander / Asian-American",
+      "field_of_study": "Law",
+      "career": "Unknown"
+    },
+    "dating_context": {
+      "goal": "to meet new people",
+      "dates_frequency": "almost never",
+      "goes_out": "several times a week",
+      "expected_happiness": 3.0
+    },
+    "partner_importance": {
+      "same_race": 2.0,
+      "same_religion": 4.0
+    },
+    "interests": {
+      "scores": {
+        "sports": 9.0,
+        "tvsports": 2.0,
+        "exercise": 8.0,
+        "dining": 9.0,
+        "museums": 1.0,
+        "art": 1.0,
+        "hiking": 5.0,
+        "gaming": 1.0,
+        "clubbing": 5.0,
+        "reading": 6.0,
+        "tv": 9.0,
+        "theater": 1.0,
+        "movies": 10.0,
+        "concerts": 10.0,
+        "music": 9.0,
+        "shopping": 8.0,
+        "yoga": 1.0
+      },
+      "sentiment": {
+        "sports": "love it",
+        "tvsports": "hate it",
+        "exercise": "love it",
+        "dining": "love it",
+        "museums": "hate it",
+        "art": "hate it",
+        "hiking": "meh",
+        "gaming": "hate it",
+        "clubbing": "meh",
+        "reading": "cool with it",
+        "tv": "love it",
+        "theater": "hate it",
+        "movies": "love it",
+        "concerts": "love it",
+        "music": "love it",
+        "shopping": "love it",
+        "yoga": "hate it"
+      },
+      "by_sentiment": {
+        "love_it": [
+          "sports",
+          "exercise",
+          "dining",
+          "tv",
+          "movies",
+          "concerts",
+          "music",
+          "shopping"
+        ],
+        "cool_with": [
+          "reading"
+        ],
+        "meh": [
+          "hiking",
+          "clubbing"
+        ],
+        "dislike": [],
+        "hate": [
+          "tvsports",
+          "museums",
+          "art",
+          "gaming",
+          "theater",
+          "yoga"
+        ]
+      }
+    },
+    "partner_preferences": {
+      "weights": {
+        "attractive": 0.15,
+        "sincere": 0.2,
+        "intelligent": 0.2,
+        "fun": 0.15,
+        "ambitious": 0.15,
+        "shared_interests": 0.15
+      },
+      "most_valued": [
+        "sincere",
+        "intelligent",
+        "attractive"
+      ]
+    },
+    "self_perception": {
+      "attractive": 6.0,
+      "sincere": 8.0,
+      "intelligent": 8.0,
+      "fun": 8.0,
+      "ambitious": 7.0
+    },
+    "bio": "I'm a 21-year-old law student with a passion for staying active - whether it's playing sports or trying out new exercise classes. In my free time, you can find me trying out the latest restaurants in town or catching up on my favorite TV shows. I'm always looking to meet new people and make connections.",
+    "seeking": "I'm drawn to someone who is genuine, smart, and confident - being around someone who shares similar interests would be a bonus!"
+  },
+  "2": {
+    "user_id": 2,
+    "demographics": {
+      "age": 24.0,
+      "gender": "Female",
+      "race": "European / Caucasian-American",
+      "field_of_study": "Law",
+      "career": "Unknown"
+    },
+    "dating_context": {
+      "goal": "a fun night out",
+      "dates_frequency": "once a month",
+      "goes_out": "several times a week",
+      "expected_happiness": 4.0
+    },
+    "partner_importance": {
+      "same_race": 2.0,
+      "same_religion": 5.0
+    },
+    "interests": {
+      "scores": {
+        "sports": 3.0,
+        "tvsports": 2.0,
+        "exercise": 7.0,
+        "dining": 10.0,
+        "museums": 8.0,
+        "art": 6.0,
+        "hiking": 3.0,
+        "gaming": 5.0,
+        "clubbing": 8.0,
+        "reading": 10.0,
+        "tv": 1.0,
+        "theater": 9.0,
+        "movies": 8.0,
+        "concerts": 7.0,
+        "music": 8.0,
+        "shopping": 3.0,
+        "yoga": 1.0
+      },
+      "sentiment": {
+        "sports": "don't like it",
+        "tvsports": "hate it",
+        "exercise": "cool with it",
+        "dining": "love it",
+        "museums": "love it",
+        "art": "cool with it",
+        "hiking": "don't like it",
+        "gaming": "meh",
+        "clubbing": "love it",
+        "reading": "love it",
+        "tv": "hate it",
+        "theater": "love it",
+        "movies": "love it",
+        "concerts": "cool with it",
+        "music": "love it",
+        "shopping": "don't like it",
+        "yoga": "hate it"
+      },
+      "by_sentiment": {
+        "love_it": [
+          "dining",
+          "museums",
+          "clubbing",
+          "reading",
+          "theater",
+          "movies",
+          "music"
+        ],
+        "cool_with": [
+          "exercise",
+          "art",
+          "concerts"
+        ],
+        "meh": [
+          "gaming"
+        ],
+        "dislike": [
+          "sports",
+          "hiking",
+          "shopping"
+        ],
+        "hate": [
+          "tvsports",
+          "tv",
+          "yoga"
+        ]
+      }
+    },
+    "partner_preferences": {
+      "weights": {
+        "attractive": 0.45,
+        "sincere": 0.05,
+        "intelligent": 0.25,
+        "fun": 0.2,
+        "ambitious": 0.0,
+        "shared_interests": 0.05
+      },
+      "most_valued": [
+        "attractive",
+        "intelligent",
+        "fun"
+      ]
+    },
+    "self_perception": {
+      "attractive": 7.0,
+      "sincere": 5.0,
+      "intelligent": 8.0,
+      "fun": 10.0,
+      "ambitious": 3.0
+    },
+    "bio": "When I'm not buried in textbooks, you can find me trying out the latest restaurants or catching a live music show. As a law student, I love debating and discussing politics with like-minded folks over coffee. Outside of academics, I'm an art enthusiast and try to squeeze in as many concerts and gallery openings as my schedule allows.",
+    "seeking": "I'm looking for someone who's smart, charismatic, and always up for a spontaneous dance party or impromptu museum visit. You should be someone who shares my love for culture, good food, and lively conversation – bonus points if you can quote your favorite books or movies!"
+  },
+  "3": {
+    "user_id": 3,
+    "demographics": {
+      "age": 25.0,
+      "gender": "Female",
+      "race": "European / Caucasian-American",
+      "field_of_study": "Math",
+      "career": "Unknown"
+    },
+    "dating_context": {
+      "goal": "other",
+      "dates_frequency": "once a week",
+      "goes_out": "several times a week",
+      "expected_happiness": 4.0
+    },
+    "partner_importance": {
+      "same_race": 8.0,
+      "same_religion": 4.0
+    },
+    "interests": {
+      "scores": {
+        "sports": 3.0,
+        "tvsports": 8.0,
+        "exercise": 7.0,
+        "dining": 8.0,
+        "museums": 5.0,
+        "art": 5.0,
+        "hiking": 8.0,
+        "gaming": 4.0,
+        "clubbing": 5.0,
+        "reading": 7.0,
+        "tv": 8.0,
+        "theater": 7.0,
+        "movies": 7.0,
+        "concerts": 7.0,
+        "music": 5.0,
+        "shopping": 8.0,
+        "yoga": 7.0
+      },
+      "sentiment": {
+        "sports": "don't like it",
+        "tvsports": "love it",
+        "exercise": "cool with it",
+        "dining": "love it",
+        "museums": "meh",
+        "art": "meh",
+        "hiking": "love it",
+        "gaming": "don't like it",
+        "clubbing": "meh",
+        "reading": "cool with it",
+        "tv": "love it",
+        "theater": "cool with it",
+        "movies": "cool with it",
+        "concerts": "cool with it",
+        "music": "meh",
+        "shopping": "love it",
+        "yoga": "cool with it"
+      },
+      "by_sentiment": {
+        "love_it": [
+          "tvsports",
+          "dining",
+          "hiking",
+          "tv",
+          "shopping"
+        ],
+        "cool_with": [
+          "exercise",
+          "reading",
+          "theater",
+          "movies",
+          "concerts",
+          "yoga"
+        ],
+        "meh": [
+          "museums",
+          "art",
+          "clubbing",
+          "music"
+        ],
+        "dislike": [
+          "sports",
+          "gaming"
+        ],
+        "hate": []
+      }
+    },
+    "partner_preferences": {
+      "weights": {
+        "attractive": 0.35,
+        "sincere": 0.1,
+        "intelligent": 0.35,
+        "fun": 0.1,
+        "ambitious": 0.1,
+        "shared_interests": 0.0
+      },
+      "most_valued": [
+        "attractive",
+        "intelligent",
+        "sincere"
+      ]
+    },
+    "self_perception": {
+      "attractive": 8.0,
+      "sincere": 9.0,
+      "intelligent": 9.0,
+      "fun": 8.0,
+      "ambitious": 8.0
+    },
+    "bio": "I'm a math student with a passion for the outdoors and trying new things. In my free time, you can find me hiking or camping with friends, trying out a new restaurant, or catching up on my favorite TV shows. Though you won't catch me clubbing, I love staying active through yoga and meditation.",
+    "seeking": "I'm looking for someone who is intelligent, genuine, and confident in their own skin - someone who can keep up with my curiosity and share my love of adventure."
+  }
+}
